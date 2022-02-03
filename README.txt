@@ -1,7 +1,9 @@
-README
+ReadMe
 
-Pagina web de prueba hecha con html y css
+-Pagina hecha con Html Y Css, me falta el javascript
 
-1 pagina esta en desarollo
+-Pagina en desarollo ( me falta usar javascript para que sume el contador de productos agregados al carrito)
 
-no la pueden usar para uso comercial
+-No se puede usar para uso comercial y si se usa para mostrarle a tus amigos dame creditos xd
+
+-estoy empezando en el mundo del html y el css, es mi primera pagina hecha enserio.

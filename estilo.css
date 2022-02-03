@@ -22,9 +22,11 @@ body {
 #topnav a:hover{
     background-color: #ddd;
     color: #000;
+    cursor: pointer;
+    transition: .3s ease all;
 }
 #topnav a.active{
-    background-color: #04aa6d;
+    background-color: orange;
     color: #eee;
 }
 
@@ -38,9 +40,13 @@ body {
 
 
 #title {
-    
     font-size: 30pt;
     text-align: center;
+}
+
+#title:hover{
+    color: orange;
+    transition: .3s ease all;
 }
 
 #subtitle {
@@ -128,4 +134,57 @@ body {
 }
 #pag {
     text-align: center;
+}
+
+#contenedor-botones {
+    background-color: #333;
+    color: #eee;
+    padding: 7px;
+    width: 300;
+    height: 50;
+    margin: 10px;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+}
+#contenedor-botones:hover {
+    background-color: orange;
+}
+
+#acs{
+    text-align: center;
+}
+
+#mail {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#mail1 {
+    margin: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    text-align: center;
+}
+
+#email {
+    margin-left: 535px;
+    align-items: center;
+    justify-content: center;
+}
+
+#pass{
+    margin-left: 535px;
+    align-items: center;
+    justify-content: center;
 }
