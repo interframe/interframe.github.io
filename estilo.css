@@ -1,15 +1,18 @@
+/*Define el colol, el margen y la tipografia del body*/  
 body {
-    margin: 0%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: cyan;
+margin: 0%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: cyan;
 }
+/*Fin de la definicion del body*/  
 
-#topnav {
+/*Agrega la barra de navegacion y sus respectivos colores*/
+    #topnav {
     overflow: hidden;
     background-color: #333;
-}
+    }
 
-#topnav a {
+    #topnav a {
     float: left;
     padding: 15px 17px;
     color: #eee;
@@ -17,174 +20,204 @@ body {
     text-decoration: none;
     font-size: medium;
     text-shadow: black 6pxa;
-}
+    }
 
-#topnav a:hover{
+    #topnav a:hover{
     background-color: #ddd;
     color: #000;
     cursor: pointer;
     transition: .3s ease all;
-}
-#topnav a.active{
+    }
+    #topnav a.active{
     background-color: orange;
     color: #eee;
-}
+    }
 
-#Copyright{
+    #Copyright{
     color: #eee;
     text-align: right;
     overflow: hidden;
     margin: 0px;
     margin-top: 15px;
-}
+    }
+/*Fin de la barra de navegacion*/
+
+/*Define el titulo y sus variantes, tambien se define el quienes somos del abaout.html*/
+        #title {
+        font-size: 30pt;
+        text-align: center;
+        transition: .3s ease all;
+        display:inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 500px;
+        }
+
+        #title:hover{
+        color: orange;
+        transform: scale(1.2);
+        }
+
+        #subtitle {
+        font-size: 25pt;
+        text-align: center;
+        }
+        #quienes {
+        font-size: small;
+        padding-left: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        }
+/*Fin de la definicion del titulo y quienes somos*/
 
 
-#title {
-    font-size: 30pt;
-    text-align: center;
-}
+/*Define las zapatillas y sus respectivos textos de cada una incluyendo los precios*/
+            #productos1 {
+            width: 50px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin:auto;
+            }
 
-#title:hover{
-    color: orange;
-    transition: .3s ease all;
-}
+            #productos2{
+            width: 50px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin:auto;
+            }
 
-#subtitle {
-    font-size: 25pt;
-    text-align: center;
-}
-#quienes {
-    font-size: small;
-    padding-left: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-}
+            #productos3 {
+            width: 75px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin:auto;
+            }       
 
-#sapatilla1 {
-    width: 50px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin:auto;
-}
+            #producto{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #333;
+            color: #eee;
+            border-radius: 10px;
+            padding: 5px;
+            width: 300;
+            height: 50;
+            text-align: center;
+            box-shadow: 15px black;
+            }
+            #producto1 {
+            display: inline-block;
+            padding: 5px;
+            width: 400px;
+            height: 400px;
+            margin-left: 50px;
+            }
+            #producto2 {
+            display: inline-block;
+            padding: 5px;
+            width: 400px;
+            height: 400px;
+            }
+            #producto3 {
+            display: inline-block;
+            padding: 5px;
+            width: 400px;
+            height: 400px;
+            }
 
-#sapatilla2{
-    width: 50px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin:auto;
-}
-#sapatilla3 {
-    width: 75px;
-    box-sizing: border-box;
-    display: inline-block;
-    margin:auto;
-}
-
-#zapa{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #333;
-    color: #eee;
-    border-radius: 10px;
-    padding: 5px;
-    width: 300;
-    height: 50;
-    text-align: center;
-    box-shadow: 15px black;
-}
-#zapa1 {
-    display: inline-block;
-    padding: 5px;
-    width: 400px;
-    height: 400px;
-    margin-left: 50px;
-}
-#zapa2 {
-    display: inline-block;
-    padding: 5px;
-    width: 400px;
-    height: 400px;
-}
-#zapa3 {
-    display: inline-block;
-    padding: 5px;
-    width: 400px;
-    height: 400px;
-}
-
-#footer1 {
-    color: #eee;
-    font-size: 10pt;
-    margin-top: 10px;
-    float: left;
-    box-sizing: border-box;
-}
-#aasdas {
-    color:cyan;
-}
-#precio {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #333;
-    color: #eee;
-    border-radius: 10px;
-    padding: 5px;
-    width: 300;
-    height: 50;
-    margin: 0px;
-    text-align: center;
-}
+            #precio {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #333;
+            color: #eee;
+            border-radius: 10px;
+            padding: 5px;
+            width: 300;
+            height: 50;
+            margin: 0px;
+            text-align: center;
+            }
+/*Fin de la definicion de las zapatillas*/
 #pag {
     text-align: center;
 }
+/*Define los botones y cuando se selecciona */
+            #contenedor-botones {
+            background-color: #333;
+            color: #eee;
+            padding: 7px;
+            width: 300;
+            height: 50;
+            margin: 10px;
+            margin-left: 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: .3s ease all;
+            }
+            #contenedor-botones:hover {
+            background-color: orange;
+            }
+/*Fin de la definicon de los botones */
 
-#contenedor-botones {
+
+/*Define el texto de tu cuenta y la opcion de el mail y la password*/
+                #acs{
+                text-align: center;
+                }
+
+                #mail {
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                }   
+
+                #mail1 {
+                margin: 0px;
+                margin-top: 5px;
+                padding: 0px;
+                text-align: center;
+                }
+
+                #email {
+                margin-left: 600px;
+                align-items: center;
+                justify-content: center;
+                    }
+
+                #pass{
+                margin-left: 600px;
+                align-items: center;
+                justify-content: center;
+                }
+/*FIN DE LA DEFINICON*/
+.nashe {
     background-color: #333;
-    color: #eee;
-    padding: 7px;
-    width: 300;
-    height: 50;
-    margin: 10px;
-    margin-left: 100px;
+    margin: 0%;
+}
+.nashent{
     text-align: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
+    color: #eee;
+    opacity: 1;
+    padding: 3px;
+    margin: 0%;
+}
+/*COSAS AGREGADAS POST DEFINICION*/
+
+body ::-webkit-scrollbar {
+    width: 7px;
+    background-color: #333;
+}
+
+#messi {
     transition: .3s ease all;
 }
-#contenedor-botones:hover {
-    background-color: orange;
-}
 
-#acs{
-    text-align: center;
-}
-
-#mail {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-
-#mail1 {
-    margin: 0px;
-    margin-top: 5px;
-    padding: 0px;
-    text-align: center;
-}
-
-#email {
-    margin-left: 600px;
-    align-items: center;
-    justify-content: center;
-}
-
-#pass{
-    margin-left: 600px;
-    align-items: center;
-    justify-content: center;
+#messi:hover {
+    transform: scale(1.1);
 }

@@ -1,9 +1,8 @@
-ReadMe
+--README--
+# Pagina Web echa solo con html y css (javascript no lo aprendi :p)
 
--Pagina hecha con Html Y Css, me falta el javascript
+## NO me insulte, es mi primera pagina web echa con mis propios conocimientos.
 
--Pagina en desarollo ( me falta usar javascript para que sume el contador de productos agregados al carrito)
+### No para uso comercial
 
--No se puede usar para uso comercial y si se usa para mostrarle a tus amigos dame creditos xd
-
--estoy empezando en el mundo del html y el css, es mi primera pagina hecha enserio.
+---------- 
