@@ -4,6 +4,10 @@ margin: 0%;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color: cyan;
 }
+body ::-webkit-scrollbar {
+    width: 7px;
+    background-color: #333;
+}
 /*Fin de la definicion del body*/  
 
 /*Agrega la barra de navegacion y sus respectivos colores*/
@@ -68,6 +72,13 @@ background-color: cyan;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-style: italic;
         }
+        #messi {
+            transition: .3s ease all;
+        }
+        
+        #messi:hover {
+            transform: scale(1.1);
+        }
 /*Fin de la definicion del titulo y quienes somos*/
 
 
@@ -87,7 +98,7 @@ background-color: cyan;
             }
 
             #productos3 {
-            width: 75px;
+            width: 50%;
             box-sizing: border-box;
             display: inline-block;
             margin:auto;
@@ -99,7 +110,7 @@ background-color: cyan;
             color: #eee;
             border-radius: 10px;
             padding: 5px;
-            width: 300;
+            width: 100%;
             height: 50;
             text-align: center;
             box-shadow: 15px black;
@@ -107,21 +118,21 @@ background-color: cyan;
             #producto1 {
             display: inline-block;
             padding: 5px;
-            width: 400px;
-            height: 400px;
+            width: 300px;
+            height: 300px
             margin-left: 50px;
             }
             #producto2 {
             display: inline-block;
             padding: 5px;
-            width: 400px;
-            height: 400px;
+            width: 300px;
+            height: 300px;
             }
             #producto3 {
             display: inline-block;
             padding: 5px;
-            width: 400px;
-            height: 400px;
+            width: 300px;
+            height: 300px;
             }
 
             #precio {
@@ -130,7 +141,7 @@ background-color: cyan;
             color: #eee;
             border-radius: 10px;
             padding: 5px;
-            width: 300;
+            width: 300px;
             height: 50;
             margin: 0px;
             text-align: center;
@@ -144,7 +155,7 @@ background-color: cyan;
             background-color: #333;
             color: #eee;
             padding: 7px;
-            width: 300;
+            width: 300px;
             height: 50;
             margin: 10px;
             margin-left: 100px;
@@ -161,6 +172,7 @@ background-color: cyan;
             transition: .3s ease all;
             }
             #contenedor-botones:hover {
+            transform: scale(1.1);
             background-color: orange;
             }
 /*Fin de la definicon de los botones */
@@ -208,16 +220,3 @@ background-color: cyan;
     margin: 0%;
 }
 /*COSAS AGREGADAS POST DEFINICION*/
-
-body ::-webkit-scrollbar {
-    width: 7px;
-    background-color: #333;
-}
-
-#messi {
-    transition: .3s ease all;
-}
-
-#messi:hover {
-    transform: scale(1.1);
-}

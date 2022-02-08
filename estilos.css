@@ -2,234 +2,240 @@
     box-sizing: border-box;
 }
 
-/*mi css*/
+/* ----- -----  mi css ----- -----  */
 
-#topnav {
-    margin: 0%;
-    overflow: hidden;
-    background-color: #333;
-    }
+                #topnav {
+                margin: 0%;
+                overflow: hidden;
+                background-color: #333;
+                }
 
-    #topnav a {
-    float: left;
-    padding: 15px 17px;
-    color: #eee;
-    text-align: center;
-    text-decoration: none;
-    font-size: medium;
-    text-shadow: black 6pxa;
-    margin: 0%;
-    }
+                #topnav a {
+                float: left;
+                padding: 15px 17px;
+                color: #eee;
+                text-align: center;
+                text-decoration: none;
+                font-size: medium;
+                text-shadow: black 6pxa;
+                margin: 0%;
+                }
 
-    #topnav a:hover{
-        margin: 0%;
-    background-color: #ddd;
-    color: #000;
-    cursor: pointer;
-    transition: .3s ease all;
-    }
-    #topnav a.active{
-        margin: 0%;
-    background-color: orange;
-    color: #eee;
-    }
+                #topnav a:hover{
+                    margin: 0%;
+                background-color: #ddd;
+                color: #000;
+                cursor: pointer;
+                transition: .3s ease all;
+                }
+                #topnav a.active{
+                    margin: 0%;
+                background-color: orange;
+                color: #eee;
+                }
 
-    #Copyright{
-        margin: 0%;
-    color: #eee;
-    text-align: right;
-    overflow: hidden;
-    margin: 0px;
-    margin-top: 15px;
-    }
-/*Fin de la barra de navegacion*/
-.nashe {
-    background-color: #333;
-    margin: 0%;
-}
-.nashent{
-    text-align: center;
-    color: #eee;
-    opacity: 1;
-    padding: 3px;
-    margin: 0%;
-}
-/*Define el titulo y sus variantes, tambien se define el quienes somos del abaout.html*/
-        #title {
-        font-size: 30pt;
-        text-align: center;
-        }
+                #Copyright{
+                    margin: 0%;
+                color: #eee;
+                text-align: right;
+                overflow: hidden;
+                margin: 0px;
+                margin-top: 15px;
+                }
+/* ----- -----  Fin de la barra de navegacion ----- -----  */
+                .nashe {
+                    background-color: #333;
+                    margin: 0%;
+                }
+                .nashent{
+                    text-align: center;
+                    color: #eee;
+                    opacity: 1;
+                    padding: 3px;
+                    margin: 0%;
+                }
+/* ----- -----  Define el titulo y sus variantes, tambien se define el quienes somos del abaout.html ----- -----  */
+                #title {
+                    font-size: 30pt;
+                    text-align: center;
+                    transition: .3s ease all;
+                    }
 
-        #title:hover{
-        color: orange;
-        transition: .3s ease all;
-        }
+                    #title:hover{
+                    color: orange;
+                    transform: scale(1.2);
+                    }
 
-        #subtitle {
-        font-size: 25pt;
-        text-align: center;
-        }
-        #quienes {
-        font-size: small;
-        padding-left: 16px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-style: italic;
-        }
-/*Fin de la definicion del titulo y quienes somos*/
-#title {
-    font-size: 30pt;
-    text-align: center;
-    transition: .3s ease all;
-    }
+                    #subtitle {
+                    font-size: 25pt;
+                    text-align: center;
+                    }
+                    #quienes {
+                    font-size: small;
+                    padding-left: 16px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-style: italic;
+                    }
 
-    #title:hover{
-    color: orange;
-    transform: scale(1.2);
-    }
-
-    #subtitle {
-    font-size: 25pt;
-    text-align: center;
-    }
-    #quienes {
-    font-size: small;
-    padding-left: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    }
-/*css del formulario*/
+/* ----- -----  css del formulario ----- -----  */
 body {
-    background-color: cyan;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: cyan;
     margin: 0%;
 }
-
 main {
-    max-width: 800px;
-    width: 90%;
-    margin: auto;
-    padding: 40px;
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
 }
-
-
-
-
-
-/*COMIENZA EL CCS DEL FORMULARIO*/
 
 .formulario {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
 }
+
 .formulario__label {
-    display: block;
-    font-weight: 700;
-    padding: 10px;
-    cursor: pointer;
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
 }
 
 .formulario__grupo-input {
-    position: relative;
+	position: relative;
 }
 
-.formulario__input{
-    width: 100%;
-    background-color: #fff;
-    border: 3px solid transparent;
-    border-radius: 3px;
-    height: 45px;
-    line-height: 45px;
-    padding: 0px 40px 0px 10px;
-    transition: .3s ease all;
+.formulario__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
 }
 
-.formulario__input:focus{
-    border: 3px solid #0075ff;
-    outline: none;
-    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4 );
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
 }
 
 .formulario__input-error {
-    font-size: 12px;
-    margin-bottom: 0;
-    display: none;
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
 }
 
 .formulario__input-error-activo {
-    display: block;
+	display: block;
 }
 
 .formulario__validacion-estado {
-    position: absolute;
-    right: 10px;
-    bottom: 15px;
-    z-index: 180;
-    font-size: 16px;
-    opacity: 0;
-    display: flex;
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
 }
 
 .formulario__checkbox {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
-.formulario__grupo-terminos,
+.formulario__grupo-terminos, 
 .formulario__mensaje,
 .formulario__grupo-btn-enviar {
-    grid-column: span 2;
+	grid-column: span 2;
 }
-.formularuio__menasje {
-    height: 45px;
-    line-height: 45px;
-    background-color: #f66060;
-    padding: 0 15px;
-    border-radius: 3px;
-    display: none;
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
 }
+
 .formulario__mensaje-activo {
-    display: block;
-}
-.formularuio__menasje p {
-    margin: 0;
+	display: block;
 }
 
-.formulario__grupo-btn-enviar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.formulario__mensaje p {
+	margin: 0;
 }
 
-.formulario__btn{
-    height: 45px;
-    line-height: 45px;
-    width: 30%;
-    background: #000;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: .1s ease all;
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.formulario__btn:hover{
-    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1)
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
 }
 
-.formualrio__mensaje {
-    display: none;
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
 }
 
 .formulario__mensaje-exito {
-    font-size: 14px;
-    color: #119200;
-    display: none;
+	font-size: 14px;
+	color: #119200;
+	display: none;
 }
 
 .formulario__mensaje-exito-activo {
-    display: block;
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
 }
 
 
-/* estilos validacion */
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario__btn {
+		width: 100%;
+	}
+}
